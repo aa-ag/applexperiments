@@ -15,6 +15,7 @@ tell application "Brave Browser"
         say "Brave Browser is also already running"
     else
         activate
+        open location "https://duckduckgo.com/"
     end if
 end tell
 
