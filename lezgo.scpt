@@ -16,9 +16,9 @@ tell application "Brave Browser"
         say "Brave Browser is also already running"
     else
         activate
-        open location "https://github.com/"
-        open location "https://stackoverflow.com/"
-        open location "https://twitter.com/"
+        open location "https://github.com/login"
+        open location "https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f"
+        open location "https://twitter.com/i/flow/login"
         open location "https://linkedin.com/"
     end if
 end tell
