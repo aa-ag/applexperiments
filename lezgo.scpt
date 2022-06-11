@@ -1,5 +1,5 @@
 # if not already running
-# open iTerm, and Brave
+# open iTerm, Brave and VSC
 tell application "iTerm"
     if it is running
         say "iTerm is already running"
