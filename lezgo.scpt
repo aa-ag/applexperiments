@@ -16,6 +16,10 @@ tell application "Brave Browser"
     else
         activate
         open location "https://duckduckgo.com/"
+        open location "https://github.com/"
+        open location "https://stackoverflow.com/"
+        open location "https://twitter.com/"
+        open location "https://linkedin.com/"
     end if
 end tell
 
