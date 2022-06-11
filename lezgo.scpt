@@ -1,5 +1,6 @@
 # if not already running
 # open iTerm, Brave and VSC
+
 tell application "iTerm"
     if it is running
         say "iTerm is already running"
@@ -15,7 +16,6 @@ tell application "Brave Browser"
         say "Brave Browser is also already running"
     else
         activate
-        open location "https://duckduckgo.com/"
         open location "https://github.com/"
         open location "https://stackoverflow.com/"
         open location "https://twitter.com/"
