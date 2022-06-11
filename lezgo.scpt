@@ -1,8 +1,7 @@
-tell application "Safari"
-    activate
-    tell application "System Events"
-        tell process "Safari"
-            set frontmost to true
-        end tell
-    end tell
+tell application "Notes"
+    if it is running
+        say "Notes is already running"
+    else
+        activate
+    end if
 end tell
