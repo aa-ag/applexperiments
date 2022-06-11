@@ -1,5 +1,8 @@
 tell application "Safari"
-    if it is not running then launch
-    set frontmost to true
     activate
+    tell application "System Events"
+        tell process "Safari"
+            set frontmost true
+        end tell
+    end tell
 end tell
