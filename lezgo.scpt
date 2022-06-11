@@ -1,8 +1,8 @@
 # if not already running
-# open Notes, and the Calculator
-tell application "Notes"
+# open iTerm, and Brave
+tell application "iTerm"
     if it is running
-        say "Notes is already running"
+        say "iTerm is already running"
     else
         activate
     end if
@@ -10,10 +10,11 @@ end tell
 
 delay 1
 
-tell application "Calculator"
+tell application "Brave Browser"
     if it is running
-        say "Calculator is also already running"
+        say "Brave Browser is also already running"
     else
         activate
     end if
 end tell
+
