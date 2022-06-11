@@ -6,7 +6,6 @@ tell application "iTerm"
         say "iTerm is already running"
     else
         activate
-        do script "cd Documents/projects"
     end if
 end tell
 
