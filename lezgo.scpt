@@ -33,7 +33,7 @@ tell application "iTerm"
             tell application "System Events" to keystroke key code 32 using command down
 
             delay 0.01
-            set cm to "ls -t1 | head -5"
+            set cm to "ls -t1 -l | head -5"
             write text cm
 
         end tell
