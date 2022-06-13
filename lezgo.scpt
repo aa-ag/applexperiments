@@ -17,13 +17,13 @@ end tell
 
 delay 0.01
 
-tell application "Visual Studio Code"
+(* tell application "Visual Studio Code"
     if it is running
         say "Visual Studio Code is also already running"
     else
         activate
     end if
-end tell
+end tell *)
 
 delay 0.01
 
