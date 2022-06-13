@@ -28,8 +28,14 @@ end tell
 delay 0.01 *)
 
 tell application "iTerm"
-    tell current session of current window
-        set cm to "cd Documents/projects"
-        write text cm
-    end tell
+    if it is running
+        say "Visual Studio Code is also already running"
+    else
+        activate
+        delay 0.1
+        tell current session of current window
+            set cm to "cd Documents/projects"
+            write text cm
+        end tell
+    end if
 end tell
