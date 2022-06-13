@@ -28,7 +28,14 @@ tell application "iTerm"
         tell current session of current window
             set cm to "cd Documents/projects/"
             write text cm
+
+            delay 0.01
             tell application "System Events" to keystroke key code 32 using command down
+
+            delay 0.01
+            set cm to "ls -t1 | head -5"
+            write text cm
+
         end tell
         
         delay 0.1
