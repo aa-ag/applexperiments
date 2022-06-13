@@ -5,7 +5,7 @@ delay 3
 
 tell application "Brave Browser"
     if it is running
-        say "Brave Browser is also already running"
+        say "Brave is already running"
     else
         activate
         open location "https://linkedin.com/"
