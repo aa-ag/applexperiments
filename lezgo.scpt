@@ -15,16 +15,6 @@ tell application "Brave Browser"
     end if
 end tell
 
-delay 0.01
-
-tell application "Visual Studio Code"
-    if it is running
-        say "Visual Studio Code is also already running"
-    else
-        activate
-    end if
-end tell 
-
 delay 0.01 *)
 
 tell application "iTerm"
