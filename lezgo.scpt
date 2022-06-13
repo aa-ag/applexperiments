@@ -29,7 +29,7 @@ delay 0.01 *)
 
 tell application "iTerm"
     tell current session of current window
-        set cm to "command"
+        set cm to "cd Documents/projects"
         write text cm
     end tell
 end tell
