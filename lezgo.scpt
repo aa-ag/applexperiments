@@ -1,7 +1,7 @@
 # if not already running
 # open iTerm, Brave and VSC
 
-(* delay 3
+delay 3
 
 tell application "Brave Browser"
     if it is running
@@ -15,7 +15,7 @@ tell application "Brave Browser"
     end if
 end tell
 
-delay 0.01 *)
+delay 0.01
 
 tell application "iTerm"
     if it is running
