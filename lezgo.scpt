@@ -1,7 +1,7 @@
 # if not already running
 # open iTerm, Brave and VSC
 
-(* delay 3
+delay 3
 
 tell application "Brave Browser"
     if it is running
@@ -13,7 +13,7 @@ tell application "Brave Browser"
         open location "https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f"
         open location "https://github.com/login"
     end if
-end tell *)
+end tell
 
 delay 0.01
 
