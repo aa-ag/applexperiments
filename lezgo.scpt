@@ -1,7 +1,7 @@
 # if not already running
 # open iTerm, Brave and VSC
 
-delay 3
+(* delay 3
 
 tell application "Brave Browser"
     if it is running
@@ -17,20 +17,19 @@ end tell
 
 delay 0.01
 
-(* tell application "Visual Studio Code"
+tell application "Visual Studio Code"
     if it is running
         say "Visual Studio Code is also already running"
     else
         activate
     end if
-end tell *)
+end tell 
 
-delay 0.01
+delay 0.01 *)
 
 tell application "iTerm"
-    if it is running
-        say "iTerm is already running"
-    else
-        activate
-    end if
+    tell current session of current window
+        set cm to "command"
+        write text cm
+    end tell
 end tell
