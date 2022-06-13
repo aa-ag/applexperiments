@@ -23,12 +23,10 @@ tell application "iTerm"
     else
         activate
         
-        set input to display dialog "what project would you like to work on?" default answer "" with icon note buttons {"Cancel", "Continue"} 
-        
         delay 0.1
         
         tell current session of current window
-            set cm to "cd Documents/projects/" & (text returned of input)
+            set cm to "cd Documents/projects/"
             write text cm
             tell application "System Events" to keystroke key code 32 using command down
         end tell
