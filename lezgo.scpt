@@ -33,7 +33,7 @@ tell application "iTerm"
             tell application "System Events" to keystroke key code 32 using command down
 
             delay 0.01
-            set cm to "ls -t -l | head -6 | awk '{print "-", $9, $6, $7, $8}'"
+            set cm to "ls -tl | head -6 | awk '{print "👉", $9, $6, $7, $8}'"
             write text cm
 
         end tell
