@@ -8,6 +8,7 @@ tell application "RoboForm"
         say "RoboForm is already running"
     else
         activate
+    end if
 end tell
 
 delay 0.01
