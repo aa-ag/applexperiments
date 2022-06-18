@@ -3,7 +3,7 @@
 
 delay 3
 
-tell application "Robo Form"
+tell application "RoboForm"
     if it is running
         say "RoboForm is already running"
     else:
