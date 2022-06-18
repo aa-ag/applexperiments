@@ -1,5 +1,5 @@
 # if not already running
-# open iTerm, Brave and VSC
+# open RoboForm, iTerm & Brave
 
 delay 3
 
