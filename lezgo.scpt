@@ -6,7 +6,7 @@ delay 3
 tell application "RoboForm"
     if it is running
         say "RoboForm is already running"
-    else:
+    else
         activate
 end tell
 
