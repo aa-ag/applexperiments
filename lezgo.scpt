@@ -46,10 +46,9 @@ tell application "iTerm"
             set cm to "ls -tl | head -6 | tail -n +2 | awk '{print \"*\", $9, $6, $7, $8}'"
             write text cm
 
+            # delay 0.1
+            # set frontmost to true
         end tell
         
-        delay 0.1
-        
-        set frontmost to true
     end if
 end tell
