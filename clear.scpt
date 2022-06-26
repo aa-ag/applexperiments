@@ -1,3 +1,6 @@
+activate application "Messages"
+
 tell application "Messages"
-    get content of every conversation
+    set n to (count of chats)
+    log n
 end tell
