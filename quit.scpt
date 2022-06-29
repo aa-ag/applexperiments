@@ -4,5 +4,5 @@ tell application "System Events"
 end tell
 
 repeat with i in alist
-    log quoted form of i
+    do shell script "Killall " & quoted form of i
 end repeat
