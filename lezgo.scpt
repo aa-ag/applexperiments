@@ -1,6 +1,8 @@
 # if not already running
 # open RoboForm, iTerm & Brave
 
+- wait three seconds
+- (allow system to connect to network)
 delay 3
 
 tell application "RoboForm"
