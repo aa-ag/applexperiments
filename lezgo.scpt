@@ -1,8 +1,8 @@
 # if not already running
 # open RoboForm, iTerm & Brave
 
-- wait three seconds
-- (allow system to connect to network)
+-- wait three seconds
+-- (allow system to connect to network)
 delay 3
 
 tell application "RoboForm"
@@ -15,6 +15,7 @@ end tell
 
 delay 0.01
 
+-- launch 4 websites once Brave is running
 tell application "Brave Browser"
     if it is running
         say "Brave is already running"
