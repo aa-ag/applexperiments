@@ -30,6 +30,8 @@ end tell
 
 delay 0.01
 
+-- Launch iTerm and show five latest projects
+-- by last modified date
 tell application "iTerm"
     if it is running
         say "iTerm is also already running"
@@ -41,9 +43,6 @@ tell application "iTerm"
         tell current session of current window
             set cm to "cd Documents/projects/"
             write text cm
-
-            delay 0.01
-            tell application "System Events" to keystroke key code 32 using command down
 
             delay 0.01
             set cm to "ls -tl | head -6 | tail -n +2 | awk '{print \"*\", $9, $6, $7, $8}'"
