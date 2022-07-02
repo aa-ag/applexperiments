@@ -1,4 +1,4 @@
-set pass to false
+(* set pass to false
 repeat until pass is true
     try
         do shell script "ping -c 1 www.google.com"
@@ -8,4 +8,7 @@ repeat until pass is true
         log "trying..."
         delay 1
     end try
-end repeat
+end repeat *)
+
+set wifi to do shell script "networksetup -getairportpower en0"
+log wifi
