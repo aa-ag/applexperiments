@@ -7,7 +7,9 @@ repeat until pass is true
     on error
         set wifi to do shell script "networksetup -getairportpower en0"
         if wifi ends with "Off" then
+        log "wait, you aren't connected: lemme connect ya"
             do shell script "networksetup -setairportpower en1 on"
+            delay 5
         else
             log "trying..."
         end if
