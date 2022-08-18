@@ -1,8 +1,9 @@
 tell application "System Events"
     tell process "ControlCenter"
-        set BluetoothButton to menu bar item "Bluetooth" of menu bar 1
-        click BluetoothButton
+        set MenuBarBluetoothButton to menu bar item "Bluetooth" of menu bar 1
+        click MenuBarBluetoothButton
         delay 1
-        say "there you go!"
+        set Toggle to checkbox "Bluetooth" of group 1 of window "Control Center"
+        click Toggle
     end tell
 end tell
