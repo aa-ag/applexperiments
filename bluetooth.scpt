@@ -6,4 +6,5 @@ tell application "System Events"
         set Toggle to checkbox "Bluetooth" of group 1 of window "Control Center"
         click Toggle
     end tell
+    key code 53
 end tell
