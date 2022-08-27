@@ -1,1 +1,1 @@
- say "This is 'your' mac"
+ say "I [[emph +]] love my Mac."
