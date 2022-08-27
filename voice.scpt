@@ -1,1 +1,1 @@
- say "I [[emph +]] love my Mac."
+say "[[rate 180 ]]I love my Mac." using "Victoria"
