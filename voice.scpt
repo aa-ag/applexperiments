@@ -1,1 +1,1 @@
- say "This is your mac"
+ say "This is 'your' mac"
