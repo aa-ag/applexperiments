@@ -1,1 +1,1 @@
-say "[[rate 180 ]]I love my Mac." using "Victoria"
+do shell script "say -v?"
