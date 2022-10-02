@@ -4,7 +4,9 @@ repeat until isRunning = false
     if batteryPercent < 25 then
         say "[[ rate 150 ]] Please charge me. I'm low on battery." using "Daniel"
         display dialog batteryPercent & " charged."
+        set isRunning = false
     else
         display dialog "we good"
+        delay 3
     end if
 end repeat
