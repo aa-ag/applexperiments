@@ -1,7 +1,7 @@
 tell application "Whatsapp"
-    if it is running
-        say "running already"
-    else
-        activate
-    end if
+   if not running then
+      run
+      delay 0.25
+   end if
+   activate
 end tell
