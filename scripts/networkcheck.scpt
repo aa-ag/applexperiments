@@ -11,7 +11,7 @@ repeat until pass is true
             do shell script "networksetup -setairportpower en1 on"
             delay 5
         else
-            log "trying..."
+            log "trying to connect..."
         end if
         delay 1
     end try
