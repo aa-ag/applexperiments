@@ -1,0 +1,1 @@
+log stream --predicate 'eventMessage contains "Post event kCameraStream"
