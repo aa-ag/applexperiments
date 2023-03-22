@@ -1,1 +1,1 @@
-ps -ax
+ps -ax | grep Brave
