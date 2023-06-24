@@ -4,7 +4,10 @@
 set MyPassWord to "123"
 
 tell application "RoboForm"
-    activate
+    if it is running
+        say "RoboForm is already running"
+    else
+        activate
 end tell
 
 tell application "System Events" to tell application process "Roboform"
