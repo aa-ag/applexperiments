@@ -1,1 +1,1 @@
-display dialog "Search for: "
+display dialog "Search for: " default answer ""
