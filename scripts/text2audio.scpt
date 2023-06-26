@@ -1,0 +1,1 @@
+say "this is a test" saving to POSIX file "/Users/aaronaguerrevere/Documents/projects/applexperiments/test.aif"
